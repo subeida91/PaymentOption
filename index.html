@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Payment method</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="root">
+
+    <div class = "card">
+
+      <div class = "card__top"> <!--the top part-->
+       <div class="dots card__dots"> <!--container for the dots -->
+        <div class="dots__item dots__item_active">
+        </div>
+       <!--the active dot part-->
+        <div class="dots__item"></div> <!--the second dot part-->
+        <div class="dots__item"></div>
+  </div>
+  <div class= "card__title"> <!--THIS IS THE TITLE FOR THE TOP PART-->
+    Payment method
+  </div>
+  </div>
+
+      <div class ="options"><!--THIS IS THE container all payment parts--> 
+        <div class="options__item"> <!--THIS IS THE container FOR THE three payment types-->
+        <img class= "options__icon" src="img/visa.svg"/><!--THIS IS THE IMAGE FOR THE CREDIT CARD PART-->
+        <span class= "options__text">
+          Visa
+        </span> <!-- we used span to keep it inline with the image-->
+      </div>
+
+     
+        <div class="options__item">
+        <img class= "options__icon" src="img/mastercard.svg"/>
+        <span class= "options__text">
+          Mastercard
+        </span> <!-- we used span to keep it inline-->
+      </div>
+    
+      
+        <div class="options__item">
+        <img class= "options__icon" src="img/maestro.svg"/>
+        <span class= "options__text">
+          Maestro
+        </span> <!-- we used span to keep it inline-->
+      </div>
+    </div>
+
+
+
+      <a class="button" href="#action">
+        <span class="button__text">
+          Next step
+        </span> <!-- we used span to keep it inline-->
+        <img class= "button__icon" src ="img/arrow.svg"/>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
